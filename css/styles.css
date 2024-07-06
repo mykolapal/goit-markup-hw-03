@@ -19,14 +19,6 @@ img {
 
 a {text-decoration: none;}
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;}
-
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -170,6 +162,15 @@ align-items: center;
 
 
              /* ======= BENEFITS STYLES ======= */
+
+                         .visually-hidden {
+                           position: absolute;
+                           width: 1px;
+                           height: 1px;
+                           margin: -1px;
+                           border: 0;
+                           padding: 0;
+                         }
 
              .page-benefits {
               padding-top: 120px;
