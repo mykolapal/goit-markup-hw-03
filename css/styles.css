@@ -253,13 +253,10 @@ align-items: center;
             
             
           }
-    
-
-          .container person-name {
-          padding-top: 32px;
-          padding-bottom: 32px;
-          
-          }
+           
+          .container-person-name {
+           padding: 32px 0;
+           }
 
           .team-person-name {
             font-weight: 500;
