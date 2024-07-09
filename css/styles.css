@@ -172,7 +172,18 @@ align-items: center;
               padding-bottom: 120px;
              }
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
              .title-benefits{
               text-align: center;
               margin-left: 500;
@@ -239,13 +250,14 @@ align-items: center;
             background-color: #fff;
             width: calc((100% - 3 * 24)/4);
             border-radius: 0 0 4px 4px;
-            padding: 0px 0px 32px 0px;
+            
             
           }
     
 
           .container person-name {
-          padding-top: 32px 0;
+          padding-top: 32px;
+          padding-bottom: 32px;
           
           }
 
@@ -289,7 +301,7 @@ padding-bottom: 120px;
         color: #2e2f42;
         text-transform: capitalize;
         margin: 0 auto;
-        margin-bottom: 8px 72px;
+        margin-bottom: 72px;
         
   }
 
@@ -323,6 +335,7 @@ padding-bottom: 120px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
   }
 
   .desc-caption-portfolio {
